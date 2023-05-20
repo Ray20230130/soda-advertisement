@@ -1,0 +1,89 @@
+// 水果動畫
+@keyframes fruitanimation {
+  0% {
+    transform: translate(-50%, -50%) scale(.5);
+    opacity: .7;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(115deg);
+    opacity: 1;
+  }
+}
+
+@keyframes fruitanimationRE {
+  0% {
+    transform: translate(-50%, -50%) scale(1.2) rotate(115deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(.5);
+    opacity: .7;
+  }
+}
+
+.fruitanimation {
+  animation: fruitanimation 1s ease-in-out forwards;
+}
+
+.fruitanimationRE {
+  animation: fruitanimationRE 1s ease-in-out forwards;
+}
+
+// 水果動畫
+
+//-------------------------------------------------------------
+
+//文字動畫
+@keyframes textanimation {
+  0% {
+    transform: translate(0%, -100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+
+@keyframes textanimationRE {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(0%, 100%);
+    opacity: 0;
+  }
+}
+
+.textanimation {
+  animation: textanimation 1s ease-in-out forwards;
+}
+
+.textanimationRE {
+  animation: textanimationRE 1s ease-in-out forwards;
+}
+
+//文字動畫
+
+//-------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
